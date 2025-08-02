@@ -1,0 +1,11 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* hides scrollbars if canvas overflows */
+}
+
+/* ensure canvas fully fills the screen */
+canvas {
+  display: block;
+}
